@@ -17,7 +17,7 @@ We are going to interface an HC-SR04 (Ultrasonic) sensor on Raspberry Pi 4 with 
 
 
 # Connections :
-![](images/-connections.jpg)
+![](images/ultrasonic_connection.png)
 
 There are 4 pins to Ultrasonic sensor module HC-SR04
 1. VCC (also called 5V) - Connect it to 3.3V or 5V on the dev Board
