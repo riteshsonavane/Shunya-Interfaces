@@ -19,8 +19,6 @@ In this we have used pcf8591 ADC.
 - Raspberry Pi 4B compliant power supply
 - 8GB or bigger micro SD card
 
-
-
 # Connections :
 ![](images/adxl335-connections.jpg)
 
@@ -62,7 +60,7 @@ There are 4 pins on the pcf8591 which need to be connected to the dev board.
 
 # Procedure 
 
-## Step 1: Install Shunya os on Raspberry pi 4
+## Step 1: Install Shunya OS on Raspberry pi 4
 1. Download Shunya OS from the [official release site](http://shunyaos.org/beta-release/)
 2. Shunya OS guys have a decent tutorial on [Flashing Shunya OS on Raspberry Pi 4.](http://docs.shunyaos.org/boards/Raspberry-Pi-4.ht)
 3. Insert micro SD card into Raspberry Pi 4
@@ -122,7 +120,8 @@ Save the code in .c
 2. Run command 
 
 ```
-    $ gcc -o accelerometer-example accelerometer-example.c -lshunyainterfaces
+    $ gcc -o accelerometer-example accelerometer-example.c 
+    $ -lshunyainterfaces
 ```
 
 ## Run 
