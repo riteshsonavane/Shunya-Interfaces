@@ -35,10 +35,10 @@ in the code below.
 
 - Connection between raspberrypi and KY-032 
 
-| KY-032  |     <----->    | Raspberry Pi 4 |
-| ------    | ----- |------- |
-| S     | <----->  | GPIO |
-| VCC     | <----->  | Vcc |
+| KY-032  | <-----> | Raspberry Pi 4 |
+| ------  | -----   |------- |
+| OUT     | <-----> | GPIO |
+| VCC     | <-----> | Vcc |
 | GND     | <-----> | GND |
 
 
