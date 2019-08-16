@@ -29,7 +29,7 @@ There are 5 pins to ADXL3xx accelerometer module
 4. Y_out - Connect it to any Analog pin on the pcf8591 module
 5. Z_out - Connect it to any Analog pin on the pcf8591 module
 
-Note: Note the Analog pin number of the pcf8591 module that you have 
+> Note: The Analog pin number of the pcf8591 module that you have 
 connected to, These will be used as arguments for pcf8591Read() function 
 in the code below.
 
