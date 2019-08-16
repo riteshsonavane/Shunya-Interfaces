@@ -1,6 +1,3 @@
-### Template
-
-
 # Interfacing 'ADXL335 (accelerometer) sensor' with 'Raspberry Pi 4' using Shunya Interfaces
 
 
