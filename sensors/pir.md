@@ -32,10 +32,10 @@ There are 3 pins to IR Proximity Sensor module KY-032
 
 - Connection between raspberrypi and KY-032 
 
-| PIR  |     <----->    | Raspberry Pi 4 |
-| ------    | ----- |------- |
-| S     | <----->  | GPIO |
-| VCC     | <----->  | Vcc |
+| PIR     | <-----> | Raspberry Pi 4 |
+| ------  | -----   |------- |
+| OUT     | <-----> | GPIO |
+| VCC     | <-----> | Vcc |
 | GND     | <-----> | GND |
 
 
