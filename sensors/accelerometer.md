@@ -22,7 +22,7 @@ In this we have used pcf8591 ADC.
 
 
 # Connections :
-![](images/connection.jpg)
+![](images/adxl335-connections.jpg)
 
 There are 5 pins to ADXL3xx accelerometer module
 1. VCC (also called 5V) - Connect it to 3.3V or 5V on the dev Board
