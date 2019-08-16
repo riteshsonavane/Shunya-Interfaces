@@ -23,7 +23,8 @@ There are 3 pins to IR Proximity Sensor module KY-032
 1. VCC (also called +) - Connect it to 3.3V on the dev Board
 2. GND (also called -) - Connect it to GND on the dev Board
 3. Signal (also called S) - Connect it to any GPIO pin on the dev Board
-Note: Note the physical pin number of the GPIO pin that you have connected to and replace #define sensorpin 11 with  #define sensorpin (your-GPIO-pin-number) in the code below.
+
+> Note: Note the physical pin number of the GPIO pin that you have connected to and replace #define sensorpin 11 with  #define sensorpin (your-GPIO-pin-number) in the code below.
 
 - Connection between raspberrypi and KY-032 
 
