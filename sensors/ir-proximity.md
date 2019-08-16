@@ -18,7 +18,7 @@ with Shunya O/S using Shunya Interfaces library.
 
 
 # Connections :
-![](images/-connections.jpg)
+![](images/irproximity_connection.png)
 
 There are 3 pins to IR Proximity Sensor module KY-032
 1. VCC (also called +) - Connect it to 3.3V on the dev Board
