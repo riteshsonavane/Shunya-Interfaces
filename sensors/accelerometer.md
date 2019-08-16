@@ -18,6 +18,8 @@ In this we have used pcf8591 ADC.
 - Raspberry Pi 4B
 - Raspberry Pi 4B compliant power supply
 - 8GB or bigger micro SD card
+- ADXL335 (accelerometer) sensor
+
 
 # Connections :
 ![](images/adxl335-connections.jpg)
@@ -42,20 +44,20 @@ There are 4 pins on the pcf8591 which need to be connected to the dev board.
 - Connection between raspberrypi and pcf8591 
 
 
-| PCF8591 |     -    |Raspberry Pi 4 |
-| ------  | ---- |------- |
-| SDA     | <---->  | Pin 3 |
-| SCL     | <---->  | Pin 5 |
-| VCC     | <---->  | Vcc |
+| PCF8591 | <-----> |Raspberry Pi 4 |
+| ------  |  -----  |------- |
+| SDA     | <-----> | Pin 3 |
+| SCL     | <-----> | Pin 5 |
+| VCC     | <-----> | Vcc |
 | GND     | <-----> | GND |
 
 - Connection between pcf8591 and ADXL355
 
-| PCF8591 |   -     |ADXL355 |
-| ------  |  ----   |------- |
-| Ain1    | <---->  | X |
-| Ain2    | <---->  | Y |
-| Ain3    | <---->  | Z |
+| PCF8591 | <-----> |ADXL355 |
+| ------  |  -----  |------- |
+| Ain1    | <-----> | X |
+| Ain2    | <-----> | Y |
+| Ain3    | <-----> | Z |
 
 
 # Procedure 
