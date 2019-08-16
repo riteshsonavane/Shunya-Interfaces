@@ -122,8 +122,7 @@ Save the code in .c
 2. Run command 
 
 ```
-    $ gcc -o accelerometer-example accelerometer-example.c 
-    $ -lshunyainterfaces
+    $ gcc -o accelerometer-example accelerometer-example.c -lshunyainterfaces
 ```
 
 ## Run 
